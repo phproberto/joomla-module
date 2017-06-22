@@ -6,6 +6,8 @@
 [![Code Coverage](https://scrutinizer-ci.com/g/phproberto/joomla-module/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/phproberto/joomla-module/?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/phproberto/joomla-module/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/phproberto/joomla-module/?branch=master)
 
+**STILL NOT READY FOR PRODUCTION**
+
 ## What?  
 
 Have you ever seen something like this?
