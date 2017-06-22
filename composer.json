@@ -1,0 +1,30 @@
+{
+  "name": "phproberto/joomla-module",
+  "description": "Library to interact and develop Joomla! modules",
+  "license": "GPL-2.0+",
+  "authors": [
+      {
+          "name": "Roberto Segura López",
+          "email": "roberto@phproberto.com",
+          "homepage": "http://phproberto.com"
+      }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Phproberto\\Joomla\\Module\\": "src/"
+    }
+  },
+  "autoload-dev": {
+      "psr-4": {
+          "Phproberto\\Joomla\\Module\\": "tests/"
+      }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8.35",
+    "phproberto/joomla-common": "^0.0.3",
+    "joomla/registry": "^1.4.5"
+  }
+}

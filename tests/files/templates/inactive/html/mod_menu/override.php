@@ -1,0 +1,1 @@
+<h1>Sample module override on inactive template - <?php echo $foo; ?></h1>

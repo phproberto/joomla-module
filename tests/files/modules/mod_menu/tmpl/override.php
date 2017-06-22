@@ -1,0 +1,1 @@
+<h1>Sample module - <?php echo $foo; ?></h1>
