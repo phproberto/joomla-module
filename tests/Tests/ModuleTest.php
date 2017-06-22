@@ -39,11 +39,15 @@ class ModuleTest extends \TestCaseDatabase
 	protected function setUp()
 	{
 		parent::setUp();
+
 		$this->saveFactoryState();
+
 		$app = $this->getMockCmsApp();
+
 		$app->expects($this->any())
 			->method('getTemplate')
 			->will($this->returnValue('sample'));
+
 		\JFactory::$application = $app;
 	}
 	/**
@@ -55,6 +59,7 @@ class ModuleTest extends \TestCaseDatabase
 	protected function tearDown()
 	{
 		$this->restoreFactoryState();
+
 		parent::tearDown();
 	}
 
